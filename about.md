@@ -2,45 +2,23 @@
 title: About
 layout: page
 ---
-![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
+![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %} "Photo credit Gareth Dutton")
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Known as GV or ジーヴィー; I am an easygoing human, orginally from Italy, took home in this world across Italy, UK, Ireland and Sweden.
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Educated in Computer Science hold a M.sc in Computer science and an M.sc in Interactive Entertaiment Technologies.
 
-<h2>Skills</h2>
+Built my career around real time programming and creative projects with more than a decade of industry experience. Worked in different fields from banking to movies visual effects and untilmately settled in the videogame industry.
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+Very friendly, my favourite food is Italian, followed by japanese!
+My intetrests span across the spectrum from surfing, to cooking; music, videogames and movies of course.  
+Love sea, love sun, love people, love travel, love life.
 
-<h2>Projects</h2>
+Thanks for your intrest!
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+When they ask me what I do:  
+> *Programming is like playing with LEGO with infinite piecies; it is awesome, just sometimes you will step barefoot on those piecies.*
+
+> *Programming videogames is like playing with LEGO in a lego shop with licence to play everything; it is fantastic, at times it might look more walking barefoot on LEGO and blindfolded, but if you have the right team it is the best experience in the world!.*
+
+*Gv, ジーヴィー*

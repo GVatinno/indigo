@@ -14,14 +14,6 @@
             {% endif %}
         {% endif %}
 
-        {% if site.projects == true %}
-            {% if page.title != "Projects" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/projects">Projects</a>
-                </li>
-            {% endif %}
-        {% endif %}
-
         {% if site.about == true %}
             {% if page.title != "About" %}
                 <li class="item">
@@ -30,10 +22,12 @@
             {% endif %}
         {% endif %}
 
-        {% if site.resume == true %}
-            <li class="item">
-                <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>
-            </li>
+        {% if site.about == true %}
+            {% if page.title != "Career" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/career">Career</a>
+                </li>
+            {% endif %}
         {% endif %}
     </ul>
 </nav>

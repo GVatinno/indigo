@@ -1,22 +1,22 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Gianluca Vatinno
+bio: Senior videogame programmer surfing this life.
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: A window on my career and my intrests
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/headshot-gianluca.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: http://gianlucavatinno.com
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -34,23 +34,25 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-# instagram: myinstagram
+instagram: gianlucavatinno
+youtube: GiaVatinno
+github: GVatinno
+email: myemail@gmail.com
+vimeo: gianlucavatinno
+email: gianlucavatinno.porfolio@gmail.com
+linkedin: gianluca-vatinno-8ba4a822
+#facebook: myfacebook
+#twitter: mytwitter
 # pinterest: mypinterest
-# linkedin: mylinkedin
-# youtube: myyoutube
 # spotify: myspotify
-github: mygithub
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
-# vimeo: myvimeo
+# medium: medium
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+
 
 authors:
   johndoe:
@@ -84,7 +86,7 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
