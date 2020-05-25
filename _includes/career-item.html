@@ -1,0 +1,19 @@
+ <tr>
+    <td rowspan="1">
+    	<div class="career-image {% if site.animation %}animated{% endif %}">
+	        
+	            <a class="link" href="{{ career.website }}" target="_blank">
+	            <img class="selfie" alt="{{ career.name }}" src="{{ career.imgurl }}" />
+	        	</a>
+	        
+		</div>
+	</td>
+	<td>
+		<p>
+		<a class="link" data-title="{{ career.name }}" href="{{ career.website }}" target="_blank">
+            {{ career.name }}
+        </a><br>
+		<em>{{ career.title }}</em></p>
+	</td>
+</tr>
+

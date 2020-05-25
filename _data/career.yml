@@ -1,0 +1,46 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Ustwo Games
+  time: Present
+  title: Senior Game programmer
+  link1: bla
+  link2: bla2
+  link3: bla3
+  imgurl: https://www.ustwogames.co.uk/assets/ustwo-games.svg
+  website: https://www.ustwogames.co.uk/
+
+- name: King / Activition
+  time: 3.5 years
+  title: Senior Game Developer
+  link1: bla
+  link2: bla2
+  link3: bla3
+  imgurl: https://king.com/images/logos/kingLogoRebrand.svg
+  website: https://king.com/
+
+- name: Double Negative
+  time: 3.5 years
+  title: R & D Programmer
+  link1: bla
+  link2: bla2
+  link3: bla3
+  imgurl: https://pbs.twimg.com/profile_images/1039123214251700226/1jBsOQiL_400x400.jpg
+  website: https://www.dneg.com/
+
+- name: Trinity College Dublin
+  time: 3.5 years
+  title: M.sc Interactive Entertainment Technology
+  link1: bla
+  link2: bla2
+  link3: bla3
+  imgurl: https://economistjobs.com/images/jobs/logos/_logo/tcd.jpg
+  website: https://www.tcd.ie/
+
+- name: University of Bari
+  time: 3.5 years
+  title: M.sc Computer Science
+  link1: bla
+  link2: bla2
+  link3: bla3
+  imgurl: https://pbs.twimg.com/profile_images/1300511519/logounibatwitter_400x400.png
+  website: https://www.uniba.it/
