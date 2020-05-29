@@ -1,46 +1,67 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name: Ustwo Games
-  time: Present
   title: Senior Game programmer
-  link1: bla
-  link2: bla2
-  link3: bla3
   imgurl: https://www.ustwogames.co.uk/assets/ustwo-games.svg
   website: https://www.ustwogames.co.uk/
+  links:
+    - name: MCV Develop 28 days Later interview
+      extra: 
+      url: https://issuu.com/bizmediauk/docs/mcv_946_may_2019/28
+      extern : true
+  embeds:
+    - file: aa
+  
 
 - name: King / Activition
-  time: 3.5 years
   title: Senior Game Developer
-  link1: bla
-  link2: bla2
-  link3: bla3
   imgurl: https://king.com/images/logos/kingLogoRebrand.svg
   website: https://king.com/
+  links:
+    - name: Farm Heroes Saga
+      extra:  ( Live )
+      url: https://king.com/game/farmheroes
+      extern : true
+    - name: Farm Adventures
+      extra:  ( Soft Lanched, Cancelled )
+      url: https://www.youtube.com/watch?v=McmVHyA7TGQ
+      extern : true  
+
 
 - name: Double Negative
-  time: 3.5 years
   title: R & D Programmer
-  link1: bla
-  link2: bla2
-  link3: bla3
   imgurl: https://pbs.twimg.com/profile_images/1039123214251700226/1jBsOQiL_400x400.jpg
   website: https://www.dneg.com/
+  links:
+    - name: ShowReel
+      extra: ( Password On Request )
+      url: https://vimeo.com/423963855
+      extern : true
+    - name: GPU-Acceleration For Hair Simulation & Rendering | GTC 2013
+      extra: 
+      url: http://on-demand.gputechconf.com/gtc/2013/presentations/S3179-Hair-Simulation-Rendering.pdf
+      extern : true
+    - name: fxguide, Legend or truth, the VFX of Hercules
+      extra: 
+      url: https://www.fxguide.com/fxfeatured/legend-or-truth-the-vfx-of-hercules/
+      extern : true
+    - name: iDBb Filmography
+      extra: 
+      url: https://www.imdb.com/name/nm4935322/
+      extern : true
+
+      
+
+      
+
+      
 
 - name: Trinity College Dublin
-  time: 3.5 years
   title: M.sc Interactive Entertainment Technology
-  link1: bla
-  link2: bla2
-  link3: bla3
   imgurl: https://economistjobs.com/images/jobs/logos/_logo/tcd.jpg
   website: https://www.tcd.ie/
 
 - name: University of Bari
-  time: 3.5 years
   title: M.sc Computer Science
-  link1: bla
-  link2: bla2
-  link3: bla3
   imgurl: https://pbs.twimg.com/profile_images/1300511519/logounibatwitter_400x400.png
   website: https://www.uniba.it/

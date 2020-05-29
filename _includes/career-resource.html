@@ -1,0 +1,32 @@
+		<a name="{{ career.name }}"></a>
+		<div class="line"></div>
+		<br>
+		<br>
+		
+    	
+    	<div class="career-resource {% if site.animation %}animated{% endif %}">
+	            <img alt="{{ career.name }}" src="{{ career.imgurl }}" />
+		
+		</div>
+
+		{% if career.links %}
+		<p>
+		Resources:
+		{% for link in career.links %}
+		{% assign loopindex = forloop.index %}
+		<p>
+		* <a class="link" data-title="{{ link.name }}" href="{{ link.url }}" target="_blank">
+            {{ link.name }}
+        </a> {{ link.extra }}</p>
+		{% endfor %}
+		</p>
+		{% endif %}
+
+		<br>
+		<br>
+		<br>
+		<br>
+		
+        
+		
+

@@ -8,9 +8,9 @@ Known as GV or ジーヴィー; I am an easygoing human, orginally from Italy, t
 
 Educated in Computer Science hold a M.sc in Computer science and an M.sc in Interactive Entertaiment Technologies.
 
-Built my career around real time programming and creative projects with more than a decade of industry experience. Worked in different fields from banking to movies visual effects and untilmately settled in the videogame industry.
+Built my career around real time programming and creative projects with more than a decade of industry experience. Worked in different fields from banking to movies visual effects and ultimately settled in the videogame industry.
 
-Very friendly, my favourite food is Italian, followed by japanese!
+Very friendly, my favourite food is Italian, followed by Japanese!
 My intetrests span across the spectrum from surfing, to cooking; music, videogames and movies of course.  
 Love sea, love sun, love people, love travel, love life.
 

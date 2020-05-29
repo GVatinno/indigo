@@ -13,7 +13,16 @@
 		<a class="link" data-title="{{ career.name }}" href="{{ career.website }}" target="_blank">
             {{ career.name }}
         </a><br>
-		<em>{{ career.title }}</em></p>
+		<em>{{ career.title }}</em>
+		
+		{% if career.links %}
+		<span class="inline-links"><a class="link" data-title="more..." href="#{{ career.name }}">
+            <svg class="more-icon more"><use xlink:href="#icon-more"></use></svg>
+        </a></span>
+        
+        {% endif %}
+    	
+    	</p>
 	</td>
 </tr>
 

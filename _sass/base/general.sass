@@ -26,6 +26,9 @@ h3
 h4
 	font-size: 1.6rem
 
+h5
+	font-size: 1.2rem
+
 a
 	color: $delta
 	text-decoration: underline
@@ -132,3 +135,110 @@ pre
 
 .right
 	text-align: right
+
+.inline-links
+	margin-top: 0px
+	text-align: center
+	display: inline
+
+	> .link
+		margin: 0
+		text-decoration: none
+		position: relative
+		display: inline-block
+		height: 35px
+		width: 35px
+
+		&:hover
+			> .icon
+				fill: $delta
+
+		&:hover:before
+			opacity: 1
+			display: inline-block
+			transform: translate3d(0,0,0)
+			white-space: nowrap
+
+		&:before
+			content: attr(data-title)
+			display: none
+			position: absolute
+			bottom: -34px
+			left: -6px
+			margin: 0 auto
+			font-size: 13px
+			padding: 3px 10px
+			background: $beta
+			color: #fff
+			border-radius: 2px
+			height: 22px
+			line-height: 22px
+			opacity: 0
+			transition: opacity 150ms linear, transform 150ms linear, -webkit-transform 150ms linear
+			transform: translate3d(0,-8px,0)
+			z-index: 99
+
+		&:after
+			content: ""
+			position: absolute
+			top: 35px
+			left: 13px
+			width: 0
+			height: 0
+			border-left: 5px solid transparent
+			border-right: 5px solid transparent
+			border-bottom: 6px solid $beta
+			opacity: 0
+			transition: opacity 150ms linear, transform 150ms linear, -webkit-transform 150ms linear
+			transform: translate3d(0,-8px,0)
+			z-index: 100
+
+		&:hover:after
+			opacity: 1
+			transform: translate3d(0,0,0)
+
+	> .icon
+		transition: all ease-in-out .2s
+
+
+.line
+	border-top: 1px solid $epsilon
+	padding: 40px 0
+	margin: 40px 0 0
+	font-size: 1.3rem
+	color: $gama
+	font-weight: 300
+	text-align: center
+	position: relative
+	margin-left: 30%
+	margin-right: 30%
+
+	&:before
+		display: block
+		content: " "
+		width: 7px
+		height: 7px
+		border: $epsilon 1px solid
+		position: absolute
+		top: -5px
+		left: 0%
+		margin-left: -5px
+		background: #FFF
+		box-shadow: #FFF 0 0 0 5px
+		border-radius: 3px
+
+	&:after
+		display: block
+		content: " "
+		width: 7px
+		height: 7px
+		border: $epsilon 1px solid
+		position: absolute
+		top: -5px
+		left: 100%
+		margin-left: -5px
+		background: #FFF
+		box-shadow: #FFF 0 0 0 5px
+		border-radius: 3px
+
+

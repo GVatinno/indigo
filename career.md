@@ -12,6 +12,21 @@ layout: page
 {% endfor %}
 </table>
 
+<br>
+<br>
+<br>
+
+
+<div>
+{% for career in site.data.career %}
+{% assign loopindex = forloop.index %}
+{% include career-resource.html %}
+{% endfor %}
+</div>
+<iframe src="https://player.vimeo.com/video/423963855" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<br>
+
+
 {% include social-links.html %}
 
 
