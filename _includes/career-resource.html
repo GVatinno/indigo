@@ -1,3 +1,4 @@
+		{% if career.links %}
 		<a name="{{ career.name }}"></a>
 		<div class="line"></div>
 		<br>
@@ -8,8 +9,10 @@
 	            <img alt="{{ career.name }}" src="{{ career.imgurl }}" />
 		
 		</div>
-
-		{% if career.links %}
+		<div class="text-justify">
+		<p>{% capture m %}{% include md/{{career.desc}} %}{% endcapture %}
+			{{ m | markdownify }}</p>
+		</div>
 		<p>
 		Resources:
 		{% for link in career.links %}
@@ -20,13 +23,14 @@
         </a> {{ link.extra }}</p>
 		{% endfor %}
 		</p>
+		<p class="right"><span class="inline-links"><a class="link" data-title="top..." href="#top">
+            <svg class="more-icon more"><use xlink:href="#icon-back"></use></svg>
+        </a></span></p>
+		<br>
+		<br>
+		<br>
+		<br>
 		{% endif %}
-
-		<br>
-		<br>
-		<br>
-		<br>
-		
         
 		
 
