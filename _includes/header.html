@@ -1,26 +1,26 @@
-{% if page.title == "Home"
-   or page.title == "Blog"
-   or page.title == "Projects"
-   or page.title == "Tags"
-%}{% assign showHeader = true %}{% endif %}
+       <div style="width:100%; height:100%;margin: -125px 0px 0px 0px;z-index: 0;position:absolute; relative: 0px; border: 0px;">
+          <div id="unityContainer" style="max-width: 560px; height: 518px; z-index: 0; position:relative; margin: 0px; padding: 0px; border: 0px;pointer-events: auto;"> 
+          </div>
+       </div> 
+       <!--  <iframe src="unity/index.html" class="webgl-content" style="position:absolute;border:0px #000000 none;z-index:0; pointer-events: auto;" scrolling="no" frameborder="0" marginheight="-125px" marginwidth="0px" height="560px" width="518px"></iframe> -->
 
-{% if showHeader == true %}
-    <header class="header-home {% if site.animation %}animated{% endif %}">
-        {% if site.about %}
+<!--  -->
+    <header class="header-home animated-long">
+        
+
             <a class="link" href="{{ site.url }}/about">
                 <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
             </a>
-        {% else %}
-            <span class="link">
-                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
-            </span>
-        {% endif %}
-
+       
         <h1 class="title">{{ site.name }}</h1>
         <h2 class="description">{{ site.bio }}</h2>
 
         {% include social-links.html %}
+        
     </header>
-{% endif %}
+    
+
+
+
 
 {% include nav.html %}

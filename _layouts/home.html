@@ -1,0 +1,13 @@
+---
+layout: default
+---
+ <script src="unity/Build/UnityLoader.js"></script>
+    <script>
+      UnityLoader.instantiate("unityContainer", "unity/Build/unity.json");
+    </script>
+
+{% include header.html %}
+
+{{content}}
+
+{% include footer.html %}

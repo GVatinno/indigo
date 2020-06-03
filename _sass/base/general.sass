@@ -129,19 +129,24 @@ pre
 
 .wrapper-normal
 	max-width: 560px
+	pointer-events: none
 
 .wrapper-large
 	max-width: 810px
 
 .right
 	text-align: right
+.center
+	text-align: center
 
 .inline-links
+	pointer-events: auto
 	margin-top: 0px
 	text-align: center
 	display: inline
 
 	> .link
+		pointer-events: auto
 		margin: 0
 		text-decoration: none
 		position: relative
@@ -244,3 +249,6 @@ pre
 
 .text-justify
 	text-align: justify
+
+.link
+	pointer-events: auto

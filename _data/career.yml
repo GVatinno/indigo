@@ -25,7 +25,7 @@
       url: https://king.com/game/farmheroes
       extern : true
     - name: Farm Adventures
-      extra:  ( Soft Lanched, Unpublished )
+      extra: (Soft Launched, Unpublished)
       url: https://www.youtube.com/watch?v=McmVHyA7TGQ
       extern : true
     - name: Call Of Duty Prototype
@@ -76,7 +76,7 @@
       url: https://vimeo.com/424337987
       extern : true
     - name: Gestural Interface with a projected display game
-      extra: Dissertation
+      extra: (Dissertation)
       url: https://www.scss.tcd.ie/publications/theses/diss/2010/TCD-SCSS-DISSERTATION-2010-074.pdf
       extern : true
 
