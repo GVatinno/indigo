@@ -1,2 +1,8 @@
 User-agent: *
-Disallow:
+Disallow: /unity/
+Disallow: /tags/
+Disallow: /projects/
+Allow: /
+Allow: /sitemap.htm
+Sitemap: http://gianlucavatinno.com/sitemap.xml
+

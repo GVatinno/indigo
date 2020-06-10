@@ -144,4 +144,9 @@ exclude:
     "FAQ.md",
     "node_modules",
     "vendor",
+    "unity_bkp",
+    "mks",
+    "mkt",
+    TODO.txt,
+    "archive.zip"
   ]

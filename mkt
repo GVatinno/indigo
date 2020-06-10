@@ -1,0 +1,7 @@
+#!/usr/bin/env
+
+read line < _data/version.yml; ver=`echo $line | sed -e "s/v: //g"`;
+
+cp unity_bkp/UnityLoader.js unity/Build/UnityLoader${ver}.js
+
+bundle exec jekyll serve --config _config.yml --watch
