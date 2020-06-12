@@ -3,6 +3,6 @@ Disallow: /unity/
 Disallow: /tags/
 Disallow: /projects/
 Allow: /
-Allow: /sitemap.htm
+Allow: /sitemap.xml
 Sitemap: http://gianlucavatinno.com/sitemap.xml
 

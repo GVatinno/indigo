@@ -1,15 +1,19 @@
 # main text of home
 name: Gianluca Vatinno
+title: Gianluca Vatinno
 bio: Senior Videogame Programmer Surfing Life.
-
+tagline: Senior Videogame Programmer Surfing Life.
 # twitter summary info
-description: A window on my career and my intrests
-
+description: Known as GV or ジーヴィー; I am an easygoing human. Built my career around real time programming and creative projects with more than a decade of industry experience. Worked in different fields from banking to movies visual effects and ultimately settled in the videogame industry.
+image: assets/images/headshot-gianluca.jpg
+logo: assets/images/profile.jpg
 # if it's an external image, update below for true
 # better with square images
 external-image: false
 picture: assets/images/profile.jpg
 picture2: assets/images/headshot-gianluca.jpg
+
+keywords: Gianluca, Vatinno, Gianluca Vatinno, Puglia, Dublin, London, Stockckholm, sweden, Videogame, Games, Ustwo, Ustwo Games, Double Negative, Dneg, Trinity College Dublin, Trinity, College, Unity, Games, Videogames, Call of Duty, COD, Farm Heroes, King, Activision, career, developer, videogame developer, programmer, senior, senior programmer, portfolio, gianluca vatinno portfolio, c++, optimization, animation, Ai, artificail intelligence, graphics, realtime
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -54,6 +58,7 @@ spotify: 1145724964
 # reddit: username
 # medium: medium
 # lanyrd: mylanyrd
+
 
 
 authors:
@@ -121,7 +126,6 @@ defaults:
 plugins:
   - jekyll-seo-tag
   - jekyll-gist
-  - jekyll-feed
   - jemoji
   - jekyll-admin
   - jekyll-paginate-v2
